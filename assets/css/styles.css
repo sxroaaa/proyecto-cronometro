@@ -1,0 +1,72 @@
+
+
+body {
+    background-color: rgb(0, 0, 0); 
+    font-family: 'Arial', sans-serif;
+}
+
+.cronometro {
+    background-color: #000000; 
+    border-radius: 10px; 
+    padding: 20px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.pantalla {
+    color: #ffffff;
+    user-select: none;
+    font-size: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    
+}
+
+.cronometro .pantalla span{
+    width: 100px;
+    font-weight: 400;
+  
+}
+
+.cronometro .pantalla{
+    height: 100px;
+  
+}
+
+.separador {
+    color: rgb(20, 245, 68); 
+    border-radius: 50vh;
+}
+
+.separador_mili {
+    color:#9529b9 ;
+
+}
+
+.milisegundo{
+    color:#9529b9 ;
+}
+
+.botones button {
+    background-color: #65e918; 
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-radius: 0.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.botones button:hover {
+    background-color: #9529b9; 
+}
+
+.botones button.on{
+    pointer-events:none;
+    opacity: 0.7;
+}
